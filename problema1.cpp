@@ -6,6 +6,9 @@ using namespace std;
 
  int main()
  {
+   int b;
+   cin>>b;
+   cout<<b;
     int a[50],i=1, sum;//vreau sa memorez numerle intr un vector
     char nr[100];
     FILE *fp;
