@@ -6,8 +6,6 @@ using namespace std;
 char s[101][10001];
 int main()
 {
-    FILE *fp;
-    fp = fopen("in.txt", "r");
     char str[10001];
     int count = 0;
     fgets(str, 1000, stdin);
