@@ -11,12 +11,12 @@ int main()
     Student s1;
     Student s2;
     s1.SetName("Bulai Ioan");
-    s2.SetName("Dumitru Ioan");
-    s1.SetEnglishGrade(10);
-    s1.SetHistoryGrade(1);
+    s2.SetName("Dumitru Andrei");
+    s1.SetEnglishGrade(3);
+    s1.SetHistoryGrade(6);
     s1.SetMathGrade(2);
     s2.SetEnglishGrade(8);
-    s2.SetHistoryGrade(9);
+    s2.SetHistoryGrade(5);
     s2.SetMathGrade(9);
     CompareEngGrades(s1,s2);
     CompareHistGrades(s1,s2);

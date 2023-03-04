@@ -39,7 +39,7 @@ float Student::GetHistoryGrade() const {
 }
 
 float Student::GetAverageGrade() const {
-    return (GetHistoryGrade() + GetEnglishGrade() + GetMathGrade()) / 3;
+    return (historygrade + englishgrade + mathgrade) / 3;
 }
 
 void CompareNames(const Student& s1, const Student& s2) {
