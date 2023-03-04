@@ -1,8 +1,6 @@
-
 #pragma once
-
 #include <string>
-
+//#include "Student.cpp"
 class Student 
 {
     int result;
@@ -24,10 +22,4 @@ public:
     float GetHistoryGrade() const;
     
     float GetAverageGrade() const;
-
-//pentru functiile urmatoare voi afisa in functie de valorile -1,0,1
-//dar pentru o mai buna vizualizare voi afisa rezultatul intr o propozitie
-int CompareNames(const Student& s1, const Student& s2);
-int CompareGrades(const Student& s1, const Student& s2);
-int CompareAverages(const Student& s1, const Student& s2);
 };
