@@ -1,5 +1,5 @@
-#include "Student.cpp"
-#include "CompareStudents.cpp"
+#include "Student.h"
+#include "CompareStudents.h"
 #include <cstdio>
 #include <iostream>
 #include <string>
@@ -16,12 +16,12 @@ int main()
     CompNames(s1,s2);
     s1.SetEnglishGrade(3);
     s1.SetHistoryGrade(6);
-    s1.SetMathGrade(2);
+    s1.SetMatheGrade(2);
     s2.SetEnglishGrade(8);
     s2.SetHistoryGrade(5);
     s2.SetMathGrade(9);
-    CompMathGrades(s1,s2);
-    CompHistGrades(s1,s2);
+    CompMatheGrades(s1,s2);
+    CompHistoryGrades(s1,s2);
    printf("Average mark for %s is : %f ! ",s1.GetName().c_str(), s1.GetAverageGrade());
  return 0;
 }

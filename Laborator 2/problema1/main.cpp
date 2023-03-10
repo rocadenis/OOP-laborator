@@ -2,7 +2,7 @@
 #include <iostream>
 #include <cstdio>
 
-#include "NumberList.cpp"
+#include "NumberList.h"
 
 int main()
 { 

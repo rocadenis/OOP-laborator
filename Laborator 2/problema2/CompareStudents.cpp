@@ -2,7 +2,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <algorithm>
 #include "CompareStudents.h"
-void CompNames(const Student& s1, const Student& s2) {
+void CompareNames(const Student& s1, const Student& s2) {
     int result = (s1.GetName().compare(s2.GetName()));
     if (result == 0)
     {
@@ -18,7 +18,7 @@ void CompNames(const Student& s1, const Student& s2) {
     }
 }
 
-void CompMathGrades(const Student& s1, const Student& s2) {
+void CompMatheGrades(const Student& s1, const Student& s2) {
     float diff = s1.GetMathGrade() - s2.GetMathGrade();
     int result=(diff > 0) ? 1 : ((diff < 0) ? -1 : 0);
     if (result == 0)
@@ -34,7 +34,7 @@ void CompMathGrades(const Student& s1, const Student& s2) {
         printf("\n%s has a higher Math grade than %s\n", s2.GetName().c_str(), s1.GetName().c_str());
     }
 }
-void CompEngGrades(const Student& s1, const Student& s2) {
+void CompEnglishGrades(const Student& s1, const Student& s2) {
     float diff = s1.GetEnglishGrade() - s2.GetEnglishGrade();
     int result= (diff > 0) ? 1 : ((diff < 0) ? -1 : 0);
     if (result == 0)
@@ -51,7 +51,7 @@ void CompEngGrades(const Student& s1, const Student& s2) {
     }
 
 }
-void CompHistGrades(const Student& s1, const Student& s2) {
+void CompHistoryGrades(const Student& s1, const Student& s2) {
     float diff = s1.GetHistoryGrade() - s2.GetHistoryGrade();
     int result= (diff > 0) ? 1 : ((diff < 0) ? -1 : 0);
     if (result == 0)
@@ -67,7 +67,7 @@ void CompHistGrades(const Student& s1, const Student& s2) {
         printf("\n%s has a higher History grade than %s\n", s2.GetName().c_str(), s1.GetName().c_str());
     }
 }
-void CompAverages(const Student& s1, const Student& s2) {
+void CompSAverages(const Student& s1, const Student& s2) {
     float diff = s1.GetAverageGrade() - s2.GetAverageGrade();
     int result=0;
     if (diff != 0) {
