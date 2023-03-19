@@ -1,9 +1,8 @@
 #ifndef SORT_H
 #define SORT_H
+//sau #pragma once (evita includerea de fisiere header multiple sau redefinirea)
 
 #include <vector>
-#include <initializer_list>
-#include <string>
 
 class Sort {
 private:

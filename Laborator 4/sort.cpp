@@ -2,6 +2,8 @@
 #include <algorithm>
 #include <iostream>
 #include <sstream>
+#include <cstdarg>
+#include <vector>
 
 Sort::Sort() {}
 
