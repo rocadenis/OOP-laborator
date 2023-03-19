@@ -23,6 +23,6 @@ int main() {
     Sort s5("10,40,100,5,70"); // constructor with string
     s5.InsertSort(true);
     s5.Print();
-
+    printf("%d", s5.GetElementFromIndex(3));
     return 0;
 }
