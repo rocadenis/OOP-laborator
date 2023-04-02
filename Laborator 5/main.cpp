@@ -3,7 +3,7 @@
 #include <iostream>
 
 int main() {
-    Number s1("120", 8);
+    Number s1("110", 2);
     --s1;
     --s1;
     s1.Print();
